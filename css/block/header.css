@@ -1,0 +1,72 @@
+.header {
+  padding-top: 17px;
+  padding-bottom: 17px;
+  border-bottom: 1px solid #d6d6d6;
+}
+
+.haeder-row {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav {
+  font-weight: 500;
+  color: #292929;
+  margin-left: 172px;
+}
+
+.header-nav ul {
+  display: flex;
+}
+
+.header-nav li:not(:last-child) {
+  margin-right: 70px;
+}
+
+.header-nav a {
+  transition: color 0.2s ease;
+}
+
+.header-nav a:hover {
+  color: #1eb48a;
+}
+
+.header-login {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.header-login > * + * {
+  /*Выбрать первый элемент на уровне, т.е 2 ссылки но не то что внутри этих ссылок*/
+  margin-left: 35px;
+}
+
+.header-login a {
+  color: #000;
+  transition: color 0.2s ease;
+}
+
+.header-login a:hover {
+  color: #1eb48a;
+}
+
+.btn,
+a.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #01996d;
+  padding: 13px 50px;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 20px;
+  font-weight: 400;
+  transition: color 0.2s ease;
+}
+
+.btn:hover,
+a.btn:hover {
+  opacity: 0.8;
+  color: #fff;
+}
