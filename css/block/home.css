@@ -1,0 +1,39 @@
+.home {
+  padding-bottom: 175px;
+  padding-top: 175px;
+  min-height: 895px;
+  background-image: url(../../img/home/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.home-content {
+  max-width: 440px;
+}
+.home-title {
+  margin-bottom: 30px;
+  color: #01996d;
+  font-family: 'Georgia';
+  font-weight: 700;
+  font-size: 65px;
+}
+
+.home-title + * {
+  margin-top: 30px; /*Для адаптива*/
+}
+.home-txt {
+  color: #484848;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.55;
+  margin-bottom: 53px;
+  max-width: 430px;
+}
+
+.home-txt + * {
+  margin-bottom: 53px; /*Для адаптива*/
+}
+
+.home-btn {
+  display: flex; /*Чтобы кнопка не тянулась на всю ширину*/
+}
